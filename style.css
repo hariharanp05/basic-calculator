@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(34, 33, 34);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.display{
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: right;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: -3px -3px 3px rgba(255, 255, 255, 0.5),
+    3px 3px 3px black ;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    margin: 13px;
+    border: none;
+    box-shadow: -3px -3px 3px rgba(255, 255, 255, 0.5),
+                 3px 3px 3px black ;
+}
+.first-row{
+    text-align: end;
+}
+
+.AC{
+    background-color: red;
+}
+
+.CL{
+    background-color: orangered;
+}
+
+.equal{
+    background-color: aqua;
+}
